@@ -4,7 +4,7 @@ from datetime import datetime
 
 DB_NAME = "school"
 DB_USER = "postgres"
-DB_PASS = ""
+DB_PASSWORD = ""
 DB_HOST = "localhost"
 DB_PORT = 5432
 
@@ -12,7 +12,7 @@ DB_PORT = 5432
 
 conn = psycopg2.connect(database=DB_NAME,
                         user=DB_USER,
-                        password=DB_PASS,
+                        password=DB_PASSWORD,
                         host=DB_HOST,
                         port=DB_PORT)
 
